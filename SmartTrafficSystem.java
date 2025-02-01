@@ -72,6 +72,6 @@ public class SmartTrafficSystem {
 
         Map<String, Integer> fastestRoutes = graph.findFastestRoute(start);
 
-        System.out.println("\n🚗 Fastest Route from " + start + " to " + destination + ": " + fastestRoutes.get(destination) + " minutes");
+        System.out.println("\n🚗 Fastest and  Route from " + start + " to " + destination + ": " + fastestRoutes.get(destination) + " minutes");
     }
 }
